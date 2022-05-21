@@ -1,0 +1,118 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+.container1{
+	height: 90vh;
+	width: 100%;
+	background-image: url("../img/doettling_historie_00.jpg");
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+
+}
+
+.container2{
+	height: 90vh;
+	width: 100%;
+	background-image: url("../img/doettling_historie_01.jpg");
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+
+}
+
+.container3{
+	height: 90vh;
+	width: 100%;
+	background-image: url("../img/doettling_historie_02.jpg");
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+
+}
+
+.container4{
+	height: 90vh;
+	width: 100%;
+	background-image: url("../img/doettling_historie_03.jpg");
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+
+}
+
+.container5{
+	height: 90vh;
+	width: 100%;
+	background-image: url("../img/doettling_historie_05.jpg");
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+
+}
+
+.container6{
+	height: 90vh;
+	width: 100%;
+	background-image: url("../img/doettling_historie_07.jpg");
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+
+}
+
+.overlay{
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	overflow: hidden;
+ 	background-color: rgba(0, 0, 0, 0.75);
+  	border-top: 3px solid #a29161; 
+}
+
+h3{
+	color: #a29161;
+	margin-bottom: 14px;
+	font-size: 20px;
+}
+.content{
+	max-width: 860px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text{
+	color: #eee;
+	font-size: 13px;
+}
+
+.responsive-img ,{
+    display: block;
+    max-width: 100%;
+    height: auto;
+   
+}
+
+.layer-img{
+	position: absolute;
+    left: 50%;
+    margin-left: -140px;
+    outline: 3px solid #a29161;
+    margin-top: 100px;
+
+    
+}
+
+
+
+.shadow-custom { box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .25), 0 3px 10px 20px rgba(0, 0, 0, 0.1) !important;}
+
+.mask-custom {
+  backdrop-filter: blur(3px);
+  background-color: rgba(41, 41, 41, 0.3);
+}
